@@ -13,28 +13,28 @@ Essa estrutura já está dockerizada, então basta ter o docker compose rodando 
 
 ## Como usar
 
-Basta rodar o docker
+Passo 1: Executar o docker
 
 `docker compose up -d`
 
-Entre no container:
+Passo 2: Entre no container
 
 `docker exec -it setup-laravel_php bash`
 
-E execute o composer install:
+Passo 3: E execute o composer install
 
 `composer install`
 
-Você também precisa gerar a chave da aplicação:
-
-`php artisan key:generate`
-
-Aplique as migrações:
-
-`php artisan migrate`
-
-Finalmente crie uma arquivo .env a partir de .env.example:
+Passo 4: Crie uma arquivo .env a partir de .env.example
 
 `cp .env.example .env`
 
-Pronto, agora acesse o http://localhost:8080
+Passo 5: Você também precisa gerar a chave da aplicação
+
+`php artisan key:generate`
+
+Passo 6: Aplique as migrações
+
+`php artisan migrate`
+
+Passo 7: Pronto, agora acesse o http://localhost:8080
