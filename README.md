@@ -15,11 +15,11 @@ Essa estrutura já está dockerizada, então basta ter o docker compose rodando 
 
 Basta rodar o docker
 
-`docker-compose up -d`
+`docker compose up -d`
 
 Entre no container:
 
-`docker-compose exec -it nome_container_php bash`
+`docker exec -it setup-laravel_php bash`
 
 E execute o composer install:
 
