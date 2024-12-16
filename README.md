@@ -13,6 +13,11 @@ Essa estrutura já está dockerizada, então basta ter o docker compose rodando 
 
 ## Como usar
 
+Passo 0: Instale o projeto via Makefile
+`make install`
+
+Alternativamente você pode fazer seguir os outros passos e fazer uma instalação mais manual e personalizada.
+
 Passo 1: Executar o docker
 `docker compose up -d`
 
