@@ -47,8 +47,10 @@ classDiagram
     class User {
         +id: int
         +full_name: string
-        +image: string
         +user_name: string
+        +password: string
+        +email: string
+        +image: string
         +created_at: datetime
         +updated_at: datetime
         +deleted_at: datetime
